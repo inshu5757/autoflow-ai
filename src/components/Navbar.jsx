@@ -39,7 +39,7 @@ export default function Navbar() {
         </ul>
 
         <div className="navbar__actions">
-          <button className="btn btn--ghost btn--sm" aria-label="Search">
+          <button className="btn btn--ghost btn--sm" aria-label="Search" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <img src="/icons/search.svg" width="16" height="16" alt="" style={{ filter: "invert(0.6)" }} />
           </button>
           <a href="#pricing" className="btn btn--ghost btn--sm">Log in</a>

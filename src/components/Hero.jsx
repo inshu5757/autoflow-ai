@@ -51,7 +51,7 @@ export default function Hero() {
               <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
-          <button className="btn btn--ghost" type="button">
+          <button className="btn btn--ghost" type="button"  onClick={() => document.getElementById('features').scrollIntoView({ behavior: 'smooth' })}>
             Watch demo
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <circle cx="8" cy="8" r="7" stroke="currentColor" strokeWidth="1.5"/>
